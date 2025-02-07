@@ -17,10 +17,23 @@ If you're on arch you can use the PKGBUILD (I'll eventually put this on the AUR)
 makepkg -si
 ```
 
-If not, run the following command (`-dark` is optional)
+On other systems you can use the included Makefile
+
+```bash
+make
+sudo make install
+```
+
+This installs to `/usr/share/fortune` but you can set the `FORTUNE_DIR`
+environment variable if your instance of fortune stores the cookies in another
+location. `sudo make uninstall` is also included.
+
+If needed, you can make it manually
+
 ```bash
 strfile homestuck[-dark]
 ```
-Then move the resulting .dat AND the original files to `/usr/share/fortune/`
 
-TODO: Make a proper makefile
+Then move the resulting .dat AND the original files to `/usr/share/fortune/` or
+where the fortune folder is
+
