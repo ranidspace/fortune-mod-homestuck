@@ -7,6 +7,8 @@ terminal supports it.
 Contains two versions, `homestuck-dark` ups the lightness of some of the darker
 text colours to make it look slightly better on dark-mode terminals.
 
+Requires [fortune-mod](https://github.com/shlomif/fortune-mod)
+
 # Installation
 
 Clone the repository to your computer
