@@ -1,4 +1,4 @@
-# Maintainer: Ranidspace <do not email me>
+# Maintainer: Ranidspace <dev at ranid dot space>
 
 pkgname="fortune-mod-homestuck"
 pkgver='1.0.0'
